@@ -1,0 +1,83 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 3rem;
+}
+.attribution a {
+  color: #fff;
+}
+html {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right top, bottom left;
+
+  background-position: top -600px left -300px, bottom -620px right -290px;
+
+  position: relative;
+}
+
+.section {
+  background-color: #fff;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+.Victor-img {
+  position: absolute;
+  left: 120px;
+  top: 90px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  /* margin-bottom: 3rem; */
+}
+.container {
+  margin-top: 4rem;
+}
+.Victor {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid hsla(0, 4%, 75%, 0.555);
+  padding-bottom: 1.5rem;
+}
+.London {
+  margin-top: 0.5rem;
+}
+span {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  padding-bottom: 3rem;
+}
+P {
+  color: hsl(0, 0%, 59%);
+  margin: 0;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 2rem;
+  margin: 1.5rem 0;
+}
+.content P {
+  font-size: 0.7rem;
+  padding-top: 0.3rem;
+}

@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  body {
+    background-position: top -600px left -600px, bottom -720px right -390px;
+  }
+}
+@media (max-width: 720px) {
+  body {
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 420px) {
+  body {
+    background-position: top -600px left -800px, bottom -720px right -690px;
+  }
+}
